@@ -1,0 +1,41 @@
+{
+    "name": "molajoplugins/blockquote",
+    "description": "Blockquote Plugin for use with the Molajo Plugin Framework",
+    "version": "1.0.0",
+    "type": "molajo-plugin",
+    "keywords": [
+        "plugin",
+        "molajo",
+        "blockquote"
+    ],
+    "homepage": "http://github.com/MolajoPlugins/Blockquote",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amy Stephen",
+            "email": "AmyStephen@molajo.org",
+            "homepage": "http://AmyStephen.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/MolajoPlugins/Blockquote/issues",
+        "forum": "https://groups.google.com/forum/#!forum/molajo",
+        "irc": "irc://irc.freenode.org/molajo",
+        "source": "https://github.com/MolajoPlugins/Blockquote"
+    },
+    "require": {
+        "molajo/plugins": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Molajo\\Plugins\\Blockquote\\": "/"
+        }
+    },
+
+    "archive": {
+        "exclude": ["/.dev"]
+    },
+
+    "minimum-stability": "dev"
+}
